@@ -1,3 +1,7 @@
+body {
+    background-image: url("fondo.jpg");
+}
+
 h1 {
     color: yellow;
 }
@@ -5,17 +9,27 @@ h1 {
 img {
     width: 400px;
     height: 300px;
+ 
 }
 
 #thirdDiv {
     height: 600px;
     width: 500px;
-    background-color: purple;
     padding: 50px;
-    border: 2px solid black;
+    border: 2px solid black;   
 }
 
 #spanId {
     font-size: 18px;
     margin: 50px;
+}
+
+.divClass{
+    background-color: #fafafa;
+    margin: 1rem;
+    padding: 1rem;
+    border: 2px solid #ccc;
+    /* IMPORTANTE */
+    text-align: center;
+    border: 2px solid black;   
 }
